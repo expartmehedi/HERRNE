@@ -1,0 +1,386 @@
+/* 
+    Templeate Name  : HERNNE
+    Author          : Expart Mehedi
+    Author URL      : https://www.facebook.com/contact.developermehedi
+
+*/
+
+/************* Tabel Content *********/
+/* 
+    01. Header Section
+*/
+
+/* Utility */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: normal;
+}
+:root{
+    --FFD16E: #FFD16E;
+    --6FDCFF: #6FDCFF;
+    --99E7FF: #99E7FF;
+    --6C63FF: #6C63FF;
+    --C0F37E: #C0F37E;
+    --FFE458: #FFE458;
+    --FF6584: #FF6584;
+    --FFFFFF: #FFFFFF;
+    --1F232D: #1F232D;
+    --3F3D56: #3F3D56;
+    --font_weight-400: 400;
+    --font_weight-500: 500;
+    --font_weight-600: 600;
+    --font_weight-700: 700;
+    --font_weight-800: 800;
+    --font_weight-900: 900;
+    --font_size-21: 21px;
+    --font_size-24: 24px;
+    --font_size-25: 25px;
+    --font_size-36: 36px;
+    --font_size-72: 72.03px;
+    --font_size-77: 77px;
+    --font_size-42: 42.19px;
+    --font_size-43: 43.19px;
+    --font_size-28: 28.13px;
+}
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+.container-fluid{
+    max-width: 1540px;
+    margin: auto;
+}
+.list-style-none{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: var(--FFFFFF);
+}
+ul li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.colum-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.btn-primary{
+    background-color: var(--6C63FF);
+    width: 204px;
+    height: 68px;
+    border-radius: 4px;
+    border: none;
+}
+.btn-primary a{
+    color: #FFFFFF;
+    font-weight: var(--font_weight-900);
+    font-size: var(--font_size-25);
+    line-height: 29.3px;
+}
+.w-100{
+    width: 100%;
+}
+
+/* Section */
+
+/* Main CSS Start */
+
+/* Header Section */
+#header {
+    background-color: #ffd16eb6;
+    padding: 50px 0 0 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.header-menu-section {
+    justify-content: space-between;
+}
+.header-menu{}
+.header-menu ul {
+    margin-top: 15px;
+}
+.header-menu ul li {
+    padding: 20px;
+    font-weight: var(--font_weight-700);
+    font-size: var(--font_size-24);
+    line-height: 24.13px;
+}
+.header-menu ul li a{
+    color: var(--1F232D);
+}
+.header-menu ul li i{
+    font-size: 15px;
+}
+.header-icon{}
+
+.header-icon ul{}
+
+.header-icon ul li{}
+
+.header-icon ul li :nth-child(1){
+    margin-right:8px;
+}
+.header-icon ul li a{}
+
+/* Banner Section CSS Start */
+.Banner-section{
+   background-color: var(--FFD16E);
+   padding-top: 100px; 
+}
+
+.banner-left-content{}
+
+.banner-left-text {
+    width: 50%;
+    margin: auto;
+}
+.banner-left-text h1 {
+    font-size: var(--font_size-72);
+    font-weight: var(--font_weight-800);
+    line-height: 77px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.banner-left-text button{}
+
+.banner-right-image {
+    width: 50%;
+    margin: auto;
+}
+
+/* display-Product Section CSS Start */
+.display-product{
+    background-image: linear-gradient(90deg, #6FDCFF 50%, #99E7FF 50%);
+}
+.product-section {
+    justify-content: center;
+    align-items: center;
+}
+
+.product-text-left{
+    width: 50%;
+
+}
+
+.product-detail{}
+.product-detail h3{
+    font-weight: var(--font_weight-800);
+    font-size: var(--font_size-36);
+    line-height: 42.19px;
+    color: var(--1F232D);
+}
+.product-detail p{
+    font-size: var(--font_size-24);
+    font-weight: var(--font_weight-400);
+    line-height: 28.13px;
+    margin-bottom: 70px;
+    color: var(--1F232D);
+}
+
+.product-image-right{
+    width: 50%;
+}
+/* display-Product Section CSS End */
+/* Product Section CSS Start */
+.products-section{}
+.products-section .product:nth-child(1){
+    background-color: var(--6C63FF);
+}
+.products-section .product:nth-child(2){
+    background-color: var(--C0F37E);
+}
+.products-section .product:nth-child(3){
+    background-color: var(--FFE458);
+}
+.products-section .product:nth-child(4){
+    background-color: var(--FF6584);
+}
+.product {
+    width: 25%;
+    height: 620px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.product img {
+    height: 265px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 102px;
+    margin-bottom: 19px;
+}
+.product span {
+    display: inline-block;
+    height: 28px;
+    max-width: 100%;
+    font-size: 22px;
+    margin-bottom: 28px;
+}
+.product button {
+    width: 260px;
+    height: 66px;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+.product button a {
+    font-size: 25px;
+    line-height: 29px;
+    font-family: 'Roboto';
+    font-weight: var(--font_weight-900);
+    color: var(--FFFFFF);
+    font-style: normal;
+    letter-spacing: 4px;
+}
+/* Product Section CSS End */
+/* <!-- office-info CSS Start --> */
+#office-info-section {
+    padding: 0 0 50px 0;
+}
+.office-info {
+    text-align: center;
+}
+.office-info h1 {
+    margin-top: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    color: #F2A90C;
+}
+.office-info-social {
+    justify-content: center;
+}
+.office-info-social span {
+    width: 36px;
+    height: 36px;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.office-info-social span a{}
+.office-info-social h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 39px;
+}
+/* <!-- office-info CSS End --> */
+/* <!-- guaranteed HTML Start --> */
+#guaranteed-section{
+    background: var(--FF6584);
+    padding: 60px;
+}
+.guaranteed{
+    text-align: center;
+}
+.guaranteed h1 {
+    color: var(--FFFFFF);
+    margin-bottom: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 50px;
+}
+.guaranteed button{}
+.guaranteed button a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+}
+/* <!-- guaranteed HTML End --> */
+
+/* footer-section CSS Start */
+#footer-section{
+    background-color: var(--1F232D);
+}
+    /* footer-top start */
+.footer-top {
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.footer-left-logo{}
+.footer-left-logo img{}
+.footer-right-subscribe {
+    margin-right: 60px;
+}
+.footer-right-subscribe input {
+    padding: 15px 35px;
+}
+.footer-right-subscribe button {
+    padding: 15px 25px;
+    background: var(--3F3D56);
+    border: none;
+}
+.footer-right-subscribe button a {
+    color: var(--FFFFFF);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: var(--font_weight-500);
+    font-size: 25px;
+    line-height: 25px;
+}
+    /* footer-top End */
+    /* footer Start */
+.footer{}
+.company-detail {
+    justify-content: space-around;
+}
+.company-detail h1 {
+    color: var(--FFFFFF);
+    margin-bottom: 30px;
+}
+.company-detail ul li {
+    line-height: 25px;
+}
+    /* footer End */
+    /* footer-buttom CSS Start */
+    .footer-buttom {
+        justify-content: center;
+        padding: 100px 0 50px;
+        gap: 440px;
+    }
+.footer-buttom p{ 
+    color: var(--FFFFFF);
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+}
+.social{}
+.social ul {
+    display: flex;
+    gap: 10px;
+}
+.social ul li {
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    font-size: 30px;
+}
+    /* footer-buttom CSS End */
+
+
+/* footer-section CSS End */
+
+/* Main CSS END */
