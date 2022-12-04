@@ -1,0 +1,135 @@
+
+
+@media only screen and (max-width: 1024px){
+    .header-menu ul li {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .header-menu ul li {
+        padding: 10px;
+    }
+    .banner-left-text h1 {
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width: 768px){
+    #header{
+        padding: 10px 0 0 0;
+        margin: 0;
+    }
+    .header-menu{
+        display: none;
+    }
+    .header-menu-bar{
+        display: inline-block;
+    }
+    .btn-primary {
+        width: 100px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .btn-primary a {
+        font-size: 18px;
+    }
+    .product-detail h3 {
+        font-size: 30px;
+    }
+    .product-detail p {
+        margin-bottom: 30px;
+    }
+    .guaranteed h1 {
+        font-size: 30px;
+    }
+    .footer-top{
+        display: inline;
+        text-align: center;
+
+    }
+    .footer-left-logo{
+        padding-top: 20px;
+    }
+    .footer-right-subscribe{
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #header {
+        position: absolute;
+    }
+    .header img{
+        max-width: 50%;
+    }
+    .list-style-none img{
+        max-width: 80%;
+    }
+    .list-style-none{
+        margin-top: 20px;
+    }
+    .banner-sectigiton-content{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .banner-right-image{
+        width: 100%;
+    }
+    .display-product {
+        background-image: linear-gradient(180deg, #6FDCFF 40%, #99E7FF 5%);
+    }
+    .product-text-left{
+        margin-top: 30px;
+    }
+    .product-section{
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .product-text-left {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .products-section{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+        flex: 2;
+    }
+    .office-info h1 {
+        font-size: 30px;
+    }
+    .office-info-social h3 {
+        font-size: 25px
+    }
+    .guaranteed h1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .header-menu-bar {
+        font-size: 20px;
+        margin: 30px 20px 0 15px;
+    }
+    .header img{
+        max-width: 30%;
+    }
+    .list-style-none img{
+        max-width: 50%;
+    }
+    .list-style-none{
+        margin-top: 30px;
+    }
+    .list-style-none li{
+        margin-right: -30px;
+    }
+    .banner-left-text h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .guaranteed h1 {
+        font-size: 15px;
+    }
+}

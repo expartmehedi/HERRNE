@@ -111,6 +111,13 @@ img{
     justify-content: space-between;
 }
 .header-menu{}
+.header-menu-bar {
+	display: none;
+	font-size: 25px;
+	margin-left: 26px;
+	margin-top: 35px;
+}
+
 .header-menu ul {
     margin-top: 15px;
 }
@@ -142,12 +149,13 @@ img{
    background-color: var(--FFD16E);
    padding-top: 100px; 
 }
-
+.banner-sectigiton-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .banner-left-content{}
 
 .banner-left-text {
-    width: 50%;
-    margin: auto;
 }
 .banner-left-text h1 {
     font-size: var(--font_size-72);
@@ -160,7 +168,7 @@ img{
 .banner-left-text button{}
 
 .banner-right-image {
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 
@@ -169,14 +177,13 @@ img{
     background-image: linear-gradient(90deg, #6FDCFF 50%, #99E7FF 50%);
 }
 .product-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
 }
 
-.product-text-left{
-    width: 50%;
 
-}
 
 .product-detail{}
 .product-detail h3{
@@ -193,12 +200,11 @@ img{
     color: var(--1F232D);
 }
 
-.product-image-right{
-    width: 50%;
-}
 /* display-Product Section CSS End */
 /* Product Section CSS Start */
-.products-section{}
+.products-section{
+    display: flex;
+}
 .products-section .product:nth-child(1){
     background-color: var(--6C63FF);
 }
@@ -212,7 +218,6 @@ img{
     background-color: var(--FF6584);
 }
 .product {
-    width: 25%;
     height: 620px;
     display: block;
     text-align: center;
@@ -282,6 +287,14 @@ img{
     line-height: 39px;
 }
 /* <!-- office-info CSS End --> */
+/* Dog image Section Start */
+.dog-image{
+    justify-content: center;
+}
+.dog-image img{
+    width: 33.3%;
+}
+/* Dog image Section End */
 /* <!-- guaranteed HTML Start --> */
 #guaranteed-section{
     background: var(--FF6584);
